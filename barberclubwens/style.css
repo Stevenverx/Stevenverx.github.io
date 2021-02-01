@@ -1,0 +1,288 @@
+﻿@font-face {
+    font-family: 'product_sansregular';
+    src: url('product_sans_regular-webfont.woff2') format('woff2'), url('product_sans_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    font-family: 'product_sansregular';
+    background-color: #eaeaea;
+}
+.containter {
+    height: 100%;
+}
+.splashscreen {
+    height: 100%;
+    width: 100%;
+    background-color: #0d0e0e;
+    background-image: url(logo.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid #f19019;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.buttons {
+    position: absolute;
+    bottom: 5%;
+    display: block;
+    
+}
+    .buttons a {
+        font-size: 1.3em;
+        padding: 15px 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        color: white;
+        background-color: #f19019;
+        border: none;
+        border-radius: 25px;
+        text-decoration: none;
+    }
+        .buttons a:hover {
+            background-color: RGBA(0, 0, 0, 0);
+            color: #f19019;
+            border: 1px solid #f19019;
+        }
+        .about {
+    display: flex;
+    width: 60%;;
+    margin: auto;
+    height: 60em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.leftside {
+    float: left;
+    width: 50%;
+    margin-top: 15%;
+    margin-right: 20px;
+}
+
+    .leftside h1 {
+        color: black;
+        font-size: 3em;
+    }
+    .leftside h2 {
+        color: silver;
+        font-size: 1.4em;
+    }
+    .leftside a {
+        color: grey;
+        font-size: 1.2em;
+        line-height: 1.6;
+    }
+
+.rightside {
+    float: right;
+    width: 50%;
+}
+.rightside img {
+
+        height: 100%
+    }
+hr {
+    border: 1px solid silver;
+    width: 60%;
+}
+.doelgroep {
+    box-shadow: 0 0 40px 30px rgba(0, 0, 0, .8) inset;
+    background-image: linear-gradient(315deg, rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url("salon02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 60px;
+    height: 100%;
+    border: 2px solid #f19019;
+
+
+}
+.text {
+    height: 100%;
+    color: white;
+    position: center;
+    width: 60%;
+    padding-top: 11%;
+    margin: auto;
+    text-shadow: 0px 0px 7px black;
+    line-height: 1.2;
+    font-size: 1.2em;
+}
+
+
+.prijzen {
+    margin-top: 60px;
+}
+.prijslijst {
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    position: center; 
+    display: flex;
+    font-size: 2em;
+}
+.tiles {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.behandeling {
+    margin: 20px;
+    width: 80%;
+    height: 120px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, .3) ;
+    text-align: center;
+    font-size: .8em;
+}
+.team {
+    margin: auto;
+    margin-top: 60px;
+    width: 60%;
+    display: flex;
+    object-fit: contain;
+    justify-content: space-between;
+}
+    .team img {
+        width: 30%;
+        border: 2px solid #f19019;
+    }
+.contact {
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+    height: 15em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    background-image: linear-gradient(315deg, rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url("salon02.jpg");
+    background-position: center;
+}
+.Subcontact {
+    margin: auto;
+    margin-top: 0px;
+    color: white;
+    text-shadow: 0px 0px 7px black;
+}
+    .Subcontact a {
+        text-decoration: none;
+        margin-top: 30px;
+        padding: 15px 50px;
+        color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+        text-shadow: 0px 0px 7px black;
+    }
+        .Subcontact a:hover {
+            color: #f19019;
+            border: 2px solid #f19019;
+        }
+@media screen and (max-width: 400px) {
+    .buttons a {
+        font-size: .8em;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .text {
+        font-size: 2em;
+    }
+
+    .tiles {
+        width: 60%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+
+    .leftside h1 {
+        color: black;
+        font-size: 2em;
+    }
+
+    .leftside h2 {
+        color: silver;
+        font-size: 1em;
+    }
+
+    .leftside a {
+        color: grey;
+        font-size: .8em;
+        line-height: 1.2;
+    }
+
+    .about {
+        height: 50em;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .rightside {
+        float: right;
+        width: 50%;
+    }
+
+        .rightside img {
+            height: 50em;
+        }
+
+    .doelgroep {
+        box-shadow: 0 0 40px 30px rgba(0, 0, 0, .8) inset;
+        background-image: linear-gradient(315deg, rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url("salon02.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 60px;
+        margin-top: 10px;
+        height: 82%;
+        border: 2px solid #f19019;
+    }
+
+    .text {
+        height: 100%;
+        color: white;
+        position: center;
+        width: 60%;
+        padding-top: 11%;
+        margin: auto;
+        text-shadow: 0px 0px 7px black;
+        line-height: 1.2;
+        font-size: .8em;
+    }
+
+    .contact {
+        width: 60%;
+        margin: auto;
+        padding-top: 30px;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin-bottom: 50px;
+        margin-top: 0px;
+        background-image: linear-gradient(315deg, rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url("salon02.jpg");
+        background-position: center;
+    }
