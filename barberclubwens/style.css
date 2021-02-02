@@ -249,7 +249,7 @@ hr {
         font-size: .8em;
     }
     .contact {
-        height: 100%;
+        width: 100%;
         grid-template-columns: 1fr;
     }
     Subcontact a {
