@@ -197,7 +197,7 @@ hr {
             color: #f19019;
             border: 2px solid #f19019;
         }
-@media screen and (max-width: 400px) {
+/*@media screen and (max-width: 400px) {
     .buttons a {
         font-size: .8em;
         margin-left: 5px;
@@ -289,3 +289,10 @@ hr {
         background-position: center;
     }
 
+    */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
