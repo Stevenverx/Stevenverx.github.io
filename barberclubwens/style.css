@@ -65,6 +65,7 @@ body {
     height: 60em;
     margin-top: 30px;
     margin-bottom: 30px;
+    overflow: no-content;
     
 }
 
@@ -213,5 +214,7 @@ hr {
     .rightside img {
         height: 60%;
     }
-    
+    .about {
+        height: 100%;
+    }
 }
