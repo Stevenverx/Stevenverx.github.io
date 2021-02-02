@@ -60,7 +60,7 @@ body {
         }
         .about {
     display: flex;
-    width: 60%;;
+    width: 60%;
     margin: auto;
     height: 60em;
     margin-top: 30px;
@@ -208,8 +208,12 @@ hr {
     .doelgroep {
         width: 80%
     }
+    .rightside {
+        float: right;
+        width: 50%;
+    }
     .rightside img {
-        height: 60%;
+        height: 50em;
     }
     .about {
         height: 100%;
