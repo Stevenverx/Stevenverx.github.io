@@ -39,7 +39,7 @@ body {
 .buttons {
     position: absolute;
     bottom: 5%;
-    display: block;
+    display: inline;
     
 }
     .buttons a {
@@ -216,5 +216,24 @@ hr {
     }
     .about {
         height: 100%;
+    }
+    .tiles {
+        width: 80%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .leftside h1 {
+        color: black;
+        font-size: 1.5em;
+    }
+
+    .leftside h2 {
+        color: silver;
+        font-size: .7em;
+    }
+
+    .leftside a {
+        color: grey;
+        font-size: .6em;
+        line-height: 1.6;
     }
 }
